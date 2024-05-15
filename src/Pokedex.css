@@ -1,0 +1,19 @@
+.Pokedex-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+.Pokedex-title {
+  color: rgb(180, 180, 180);
+}
+.Pokedex-winner {
+  color: green;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.Pokedex-loser {
+  color: red;
+  font-weight: bold;
+}
